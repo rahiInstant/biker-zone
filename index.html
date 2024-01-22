@@ -86,6 +86,7 @@
       <!-- navbar end -->
       <!-- carousel start -->
       <div class="carousel w-full bg-biker-secondary lg:h-[550px]">
+        <!-- slide1 -->
         <div id="slide1" class="carousel-item relative w-full">
           <div class="flex flex-col lg:flex-row lg:p-24 p-8 items-center gap-8">
             <div class="space-y-7 flex-1">
@@ -99,9 +100,9 @@
 
               <button class="btn bg-biker-primary text-white">purchase</button>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 flex justify-end">
               <img
-                class="w-[480px] h-[400]"
+                class="w-[480px] h-[400px]"
                 src="/images/slider/bike1.png"
                 class="w-full"
               />
@@ -113,6 +114,7 @@
             <a href="#slide4" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
+          <!-- slide2 -->
         </div>
         <div id="slide2" class="carousel-item relative w-full">
           <div class="flex flex-col lg:flex-row lg:p-24 p-8 items-center gap-8">
@@ -127,10 +129,10 @@
 
               <button class="btn bg-biker-primary text-white">purchase</button>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 flex justify-end">
               <img
-                class="w-[480px] h-[400]"
-                src="/images/slider/bike1.png"
+                class="w-[480px] h-[400px]"
+                src="/images/slider/bike2.png"
                 class="w-full"
               />
             </div>
@@ -142,6 +144,7 @@
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
+        <!-- slide3 -->
         <div id="slide3" class="carousel-item relative w-full">
           <div class="flex flex-col lg:flex-row lg:p-24 p-8 items-center gap-8">
             <div class="space-y-7 flex-1">
@@ -155,10 +158,10 @@
 
               <button class="btn bg-biker-primary text-white">purchase</button>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 flex justify-end">
               <img
-                class="w-[480px] h-[400]"
-                src="/images/slider/bike1.png"
+                class="w-[480px] h-[400px]"
+                src="/images/slider/bike3.png"
                 class="w-full"
               />
             </div>
@@ -170,6 +173,7 @@
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div>
+        <!-- slide4 -->
         <div id="slide4" class="carousel-item relative w-full">
           <div class="flex flex-col lg:flex-row lg:p-24 p-8 items-center gap-8">
             <div class="space-y-7 flex-1">
@@ -180,13 +184,12 @@
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
-
               <button class="btn bg-biker-primary text-white">purchase</button>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 flex justify-end">
               <img
-                class="w-[480px] h-[400]"
-                src="/images/slider/bike1.png"
+                class="w-[480px] h-[400px]"
+                src="/images/slider/bike4.png"
                 class="w-full"
               />
             </div>
@@ -200,7 +203,109 @@
         </div>
       </div>
     </header>
-    <main class="md:container md:mx-auto"></main>
+    <main class="md:container md:mx-auto">
+      <!-- featured bike -->
+      <section class="lg:mt-40 md:mt-32 mt-20">
+        <div class="font-semibold text-center">
+          <div class="flex flex-col items-center">
+            <h1 class="lg:text-5xl md:text-4xl text-3xl">
+              Fetured Bikes In This Year
+            </h1>
+            <h1 class="text-sm text-biker-primary">Best bike collection</h1>
+            <div class="h-[2px] w-20 bg-biker-primary"></div>
+          </div>
+          <div
+            class="mt-14 grid lg:gap-8 gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <img
+              class="justify-self-center"
+              src="images/others/feature-bike.png"
+              alt=""
+            />
+            <img
+              class="justify-self-center"
+              src="images/others/feature-bike.png"
+              alt=""
+            />
+            <img
+              class="justify-self-center"
+              src="images/others/feature-bike.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest Bike -->
+      <section class="mt-40">
+        <h1
+          class="lg:text-5xl md:text-4xl text-3xl font-semibold text-center mb-14"
+        >
+          Latest Bike
+        </h1>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+          <!-- first card -->
+          <div class="card card-compact bg-base-100 shadow-xl p-2">
+            <img class="p-5" src="/images/others/latest1.png" alt="Shoes" />
+
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions mt-2">
+                <button class="btn bg-biker-primary text-white">
+                  Purchase
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- second card -->
+          <div class="card card-compact bg-base-100 shadow-xl p-2">
+            <img class="p-5" src="/images/others/latest2.png" alt="Shoes" />
+
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions mt-2">
+                <button class="btn bg-biker-primary text-white">
+                  Purchase
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- third card -->
+          <div class="card card-compact bg-base-100 shadow-xl p-2">
+            <img class="p-5" src="/images/others/latest3.png" alt="Shoes" />
+
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions mt-2">
+                <button class="btn bg-biker-primary text-white">
+                  Purchase
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- happy client says -->
+      <section class="mt-40">
+        <h1
+          class="lg:text-5xl md:text-4xl text-3xl font-semibold text-center mb-14"
+        >
+          Happy <span class="text-biker-primary">Client Says</span>
+        </h1>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
